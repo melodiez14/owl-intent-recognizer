@@ -1,0 +1,231 @@
+perlihatkan nilai saya
+nilai minggu lalu
+apakah sudah ada penilaian yang sudah keluar
+ada nilai yang udah keluar
+tolong cek nilai aku
+cek nilai
+nilai kemarin
+cek nilai kuis kemarin
+tolong tampilkan nilai saya
+tunjukin nilai gua dong semuanya?
+Nilai pw
+Nilai Kuis
+nilai praktikum pemrograman web?
+Nilai praktikum pemrograman web saya berapa?
+Nilai saya untuk praktikum ?
+Berapa nilai praktikum saya minggu ini
+Nilai
+berapa seluruh nilai uas saya?
+lihat semua nilai tugas?
+Pembagian persentase nilai apa aja?
+Apakah nilai saya A?
+Presentase nilainya gimana?
+Nilai udah keluar?
+Nilai?
+Liat nilai praktikum
+perlihatkan nilai uts/uas/kuis praktikum saya
+Mau liat nilai praktikum yang kemarin dong, bisa?
+Bisakah saya lihat nilai praktikum (matakuliah ini)?
+Tampilkan nilai uts saya
+apakah nilai hasil ujian praktikum sudah ada?
+Tolong perlihatkan nilai praktikum saya
+Nilai praktikum alpro?
+nilai quiz kemarin aku berapa yah?
+Nilai [nama matkul] (recap nilai)
+Bot, nilai kuis saya kemaren berapa?
+Nilai apa yang remedial?
+Transkrip nilai
+Info nilai  tugas praktikum [x] npm [y]
+jangan di publish, kecuali kalo bisa private
+Nilai aman?
+Tolong perlihatkan nilai praktikum saya
+Nilai praktikum mata kuliah saya?
+Nilai praktikum apa aja yang udah keluar? 
+mau liat nilai uts saya semua praktikum
+komponen apa saja untuk penilaiannya?
+berapakah nilai quiz saya?
+kang, kemaren saya ngerjain tugas lengkap lho dari A sampai Z, ontime pula, tapi kok nilai saya mentok di C? boleh saya tau alasannya? saya ga nyontek kok sumpah :(
+Nilai kuis praktikum semua
+Hasil quiz kemari
+Nilai tugas ini berapa? 
+Lihat rincian nilai npm
+Tolong perlihatkan nilai tugas saya
+Berapa nilai praktikum saya?
+nilai praktikum mana yang jelek?
+nilai semua praktikum
+Nilai uts/uas/kuis?
+Lihat nilai praktikum
+Nilai praktikum apa aja yang dibawah A?
+nilai [matkul]
+Nilai tugas praktikum tertentu?
+nilai kapsel gua berapa?
+Nilai pw
+Nilai uts
+berapa nilai praktikum pemrograman web saya?
+Ada nilai yang di bawah rata-rata gak?
+Persentase nilai praktikum [blablabla] ?
+Bagaimana sistem penilaian
+Nilai praktikum
+berapa seluruh nilai uts saya?
+lihat nilai quiz?
+Ada nilai pre/post test?
+Kapan nilai A?
+Kalo ga ikutan kuis nilainya gimana?
+Nilai praktikum berapa ya?
+Nilai
+Liat nilak praktikum sisber kelas B
+bagaimana kemungkinan nilai akhir praktikum saya
+Ini kalo kurang sedikit, kira2 nilainya jadi berapa ya?
+Berapa nilai kuis (matakuliah ini) saya?
+Tampilkan nilai uas saya
+tolong tampilkan nilai UTS praktikum minggu ini?
+kelengkapan tugas pemrograman web
+kalo nilai quiz/uts/uas aku kecil bisa perbaikan ga?
+100 nilai [nama matkul] (nilai auto A) wkwkkwkwkw
+Bot, nilai uts rata rata berapa?
+Nilai apa yang kosong?
+Nilai
+Info nilai kuis praktikum [x] npm [y]
+nilai tugas
+List nilai selama ini?
+Apakah nilai saya ada yang kurang?
+Nilai praktikum kelas angkatan yang belum memenuhi nilai minimum untuk lulus?
+Nilai quiz praktikum pemrograman web aku berapa? 
+mau liat nilai praktikum sisber
+kalau nilainya tidak tercapai target apakah ada remedial? 
+Dimanakah link nilai2 tugas?
+kang, nilai saya sampai saat ini udah kekumpul berapa ya? hehe (minta liat rekap nilai maksudnya)
+Nilai uts praktikum semua
+Berapa persentase uas
+Nilai uts saya berapa? 
+lihat nilai praktikum xxx untuk npm yyy
+Nilai praktikum apa saja yang masuk nilai A? 
+Apakah nilai praktikum saya lulus?
+nilai praktikum x
+Perbaikan nilai?
+nilai praktikum
+Ada remedial ga buat memperbaiki nilai praktikum A
+Nilai kuis praktikum tertentu?
+nilai PW gua kok kecil?
+Nilai pw dong
+Nilai uas
+cek nilai praktikum pemrograman web
+Nilai paling rendah berapa?
+Apakah status nilai saya sekarang ?
+Kenapa nilai saya tidak sesuai
+Nilai prak
+berapa nilai tugas analgo saya
+lihat nilai mid?
+Kalau nilai uts atau uas kurang gimana?
+Siapa nilai A,?
+Ada perbaikan nilai tugas ga?
+Praktikum pw dapet apa ya?
+Nilai tugas
+Mau minta nilai tugas
+apa yang harus dikerjakan untuk memenuhi nilai saya yang kurang
+Nilai uts praktikum saya berapa ya? 
+Apakah saya bisa lihat nilai (matakuliah ini)?
+Tampilkan nilai tugas saya
+apakah nilai saya pada praktikum PBO ada yang kosong?
+Nilai tugas 1 Praktikum Alrpo
+presentasi penilaian praktikum gimana aja?
+Bot, nilai saya ada yg kurang ga?
+Bagaimana nilai semester ini?
+Rapor
+Info nilai uts praktikum [x] npm [y]
+quiz
+Ada tugas untuk upgrade nilai?
+Apakah nilai saya sudah lengkap?
+Berapa nilai tugas mata kuliah saya?
+Aku kurang nilai di praktikum apa aja? 
+mau liat semua nilai tugas praktikum saya
+adakah penambahan nilai?
+apakah nilai saya sudah memenuhi standar?
+kang, saya lupa, bobot nilai praktikum X berapa-berapa ya? (bobot tugas, tes, uts, uas, kehadiran, dll)
+Nilai uas praktikum semua
+Apakah nilai saya aman
+Kenapa nilai saya cuma segitu? Hehe
+lihat nilai uts untuk npm
+Apakah nilai saya sudah dapat dilihat?
+nilai uts praktikum
+Nilai kuis ke-?
+Lihat nilai
+Dapet nilai tambahan darimana aja?
+tunjukan nilai [matkul]
+Nilai uts praktikum tertentu?
+kok kecil nilainya?
+Nilai pw klo merah gausa kasi liat y
+Nilai moral
+lihat nilai praktikum pemrograman web
+Bisa memperbaiki nilai gak?
+Nilai uas saya berapa
+Nilai kuis
+nilai matkul mana saja yang belum ada?
+lihat nilai uas?
+Bisa dapat nilai tambahan dari mana?
+mengapa bisa A?
+Apa boleh tau nilai project nya?
+Nilai udah ada?
+Tambahan nilai
+Nilai praktikum sisber
+bagaimana presentase absensi saya
+Detail penilaian praktikum ini gimana?
+Apakah nilai (matakuliah) saya lulus mencapai kkm?
+Tampilkan nilai quiz saya
+Berapakah nilai tertinggi pada project praktikum?
+List Nilai praktikum saya
+Bot, sejauh ini kira kira nilai akhir saya berapa?
+Berapa nilai UTS?
+Nilai Praktikum
+Info nilai uas praktikum [x] npm [y]
+uts
+Nilai quiz kemaren?
+Tunjukkan nilai saya secara detail
+Berapa presentasi nilai tugas terhadap nilai akhir praktikum?
+Nilai aku udh lebih dari rata-rata buat kelulusan belum? 
+nilai projek rpl kelompok saya brp
+mau lihat kalkulasi nilai
+link nilai uts/uas
+Nilai yang harus saya remedi apa aja? 
+lihat nilai laprak pada praktikum xxx pada npm yyy
+Berapa nilai pratikum matakuliah X saya?
+nilai yg bagus apa aja?
+Kemungkinan nilai akhir praktikum saya kalo dihitung sekarang kira kira berapa?
+nilai  praktikum saya
+Nilai uas praktikum tertentu?
+tolong lihatkan nilai PW saya?
+Nilai 
+nilai praktikum pemrograman web saya?
+Nilai saya berapa?
+Apakah nilai saya aman ? 
+Apakah ada perbaikan nilai
+Nilai uts
+berapa nilai uas hci saya
+lihat total nilai semester ini?
+Boleh susulan tugas yang belum?
+Berapa nilai akhir saya?
+Praktikum nilainya brp?
+Daftar nilai
+Nilai praktikum robotik
+berapa nilai harian saya?
+Praktikum yang ini dinilainya sama siapa?
+Tolong perlihatkan nilai akhir (matakuliah) saya?
+apakah bisa perbaikan nilai?
+Berapa kkm nilai dari tiap tugas praktikum?
+Nilai Seluruh tugas Kriptigrafi
+Bot, nilai tugas saya termasuk tinggi ga dikelas?
+Berapa nilai UAS minimum untuk mencapai A?
+Result
+Info nilai keseluruhan praktikum [x] npm [y]
+uas
+Nilai nilai
+Apakah ada perbaikan nilai untuk tugas ... mata kuliah ... ?
+Nilai aku yang kurang apa aja? 
+nilai praktikum saya ko kecil
+indikator penilaian
+apa yang harus dilakukan apabila nilai tidak memenuhi standar?
+kang, nilai si Budi di praktikum metnum berapa?
+Nilai tugas semua praktikum
+Ada yg kurang nilainya?
+Ada tugas tambahan ga buat nambah nilai praktikum A bagi yang nilainya kurang?
+info nilai

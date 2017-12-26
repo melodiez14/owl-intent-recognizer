@@ -1,0 +1,246 @@
+tolong cek tugas yang belum saya kumpulkan
+pr yang belum saya kerjakan
+kasih tahu pr
+apakah ada pr
+apakah ada tugas
+minggu ini ada tugas apa
+bisa tampilkan tugas minggu ini
+bisa tampilkan tugas project bulan depan ini
+deadline tugas apa aja
+tugas yang deadlinenya besok
+tampilkan tugas minggu ini
+bisa ringkas tugas untuk besok
+ada tugas apa saja
+tampilkan tugas
+tampilkan tugas yang kosong
+tugas gua tuh apa aja si yang belum?
+Tugas
+Tugas upload kemana
+tugas minggu ini?
+Apa tugas yang belum diupload?
+Daftar tugas hari ini ?
+Tugas
+minta list tugas yang harus dikerjain
+tugas besok?
+Tugasnya apa?
+Tugas?
+Ada extra time ga?
+Ada tugas ga?
+Deadline?
+Deadline tugas sisber kapan ?
+Apa saja tugas yg harus diupload?
+Tugas ini diupload kemana
+Kapan deadline tugas (matakuliah ini) dikumpulkan?
+Tugas dikumpulkan kapan?
+Kapan kah deadline tugas dikumpulkan?
+Tugas saya yang belum lengkap
+apa tugas minggu ini
+tugas minggu ini apa aja?
+deadline [nama matkul] tugas ke [nomor urutan tugas]
+Bot, tugas saya ada yg kurang ga?
+Tugas apa belum upload?
+Tugas
+Deadline tugas [n]
+List tugas ?
+Tunjukkan tugas yang belum saya upload?
+Tugas apa saja yg belum saya kumpulkan?
+Ada tugas gak buat praktikum minggu ini? 
+tugas minggu ini apa aja
+kapan deadlinenya?
+Apa link tugas yang harus dikerjakan
+eh saya lupa, kemaren praktikum algoritma dan pemrograman ditugasin apa ya?
+Tugas hari ini apa aja
+Ada tugas buat pertemuan besok
+Tugas untuk minggu ini apa?
+Apakah ada tugas praktikum
+Apa saja tugas untuk praktikum hari ini?
+Apakah praktikum matakuliah x ada tugas?
+kapan deadline tugas ini?
+tugas minggu ini apa
+Ada tugas yang belum dikerjain?
+Ada pr apa?
+Tugas apa saja yang belum saya lengkapi?
+list tugas
+Kapan batas akhir tugas tertentu?
+ada tugas ya?
+Kapan deadline
+tugas apa yang belum dikumpulkan?
+Deadline tugas terdekat kapan?
+Daftar tugas minggu ini ?
+Tugas praktikum
+minta list tugas yang harus diupload
+tugas seminggu ini?
+Deadline kapan?
+Aslina aya tugas?
+Format nya apa?
+Tugasnya apa aja?
+Tugas?
+Tugas praktikum sisber kodingannya disatuin di word apa di cpp aja ?
+Kapan deadline tugas?
+Tugas yg ini deadline nya kapan?
+Tugas ini dikirimkan kemana?
+Tugas ada di ppt mana?
+Adakah tugas untuk praktikum minggu ini?
+Link untuk pengumpulan tugas
+Praktikum Ada tugas
+kapan tugas dikumpulkan
+link tugas sisber
+Bot, tugas minggu ini apa ya?
+Tugas apa remedial?
+Tugas Praktikum
+Info tugas praktikum pw
+kirim kemana
+Tugas di kumpul jam berapa? 
+Tunjukkan alamat pengiriman tugas?
+List tugas yg harus dikumpulkan minggu ini?
+Ada tugas gak buat praktikum minggu depan?
+tugas aku yang blm apa aja
+formatnya apa?
+apa link pengumpulan tugas
+kang, tugas praktikum datrib boleh pake mySQL aja? apa wajib pake oracle?
+Tugas minggu ini apa aja
+Laprak dikirim kemana
+Deadline pengumpulan tugasnya kapan? 
+Deadline untuk tugas [mataPraktikum]
+Tugas apa saja untuk praktikum besok?
+tugasnya disuruh apa/ ngapain tugasnya?
+tugas yang belum ngumpulin apa
+Tugas praktikum ke-3?
+Ada tugas apa?
+Minggu ini ada tugas apa aja?
+daftar tugas
+Bagaimana isi tugas yang diminta?
+gengs tugas mobkom apa sih?
+Langsung aja keluarin seluruh tugas sama statusnya
+Materi tugas
+ada tugas apa yang belum?
+Ada tugas baru?
+Deadline memgumpulkan ?
+Apa ketentuan tugas
+Tugas prak
+saya kurang di tugas apa saja hari ini
+daftar semua tugas yg belum dikerjakan?
+Dikirim kemana?
+Hah tugas wkekek??
+Di uplodnya dimana?
+Tugas dikumpul kapan?
+Belum upload?
+Tugas praktikum robotik dikumpulin atau dibawa aja hari Rabu ?
+tunjukkan materi untuk tugas yang harus diupload
+Buat praktikum ini ada tugas ga?
+Tugas apa saja yang dikumpulkan minggu ini?
+Bagaimana cara mengerjakan tugas tsb?
+Tolong tampilkan tugas yang telah dikumpulkan?
+Deadline pengumpulan tugas
+Tugas praktikum?
+tugas dikumpulin kemana
+Bot, tugas minggu depan apa?
+Tugas apa minggu ini?
+List tugas
+Info kesuksesan pengiriman tugas [n]
+deadline
+Ada asprak yang bisa bantuin tugas hari ini?
+Waktu pengumpulan tugas?
+Kemana harus mengirim tugas mata kuliah ?
+Tugas praktikum minggu ini udah aku kumpulin belum? 
+batas tugas praktikum  kripto jam berapa
+kirim kemana tugasnya? 
+Apa materi yg terdapat pada tugas tsb?
+kang, deadline tugas X tanggal berapa jam berapa ya?
+Tugas minggu depan apa aja
+Tugasnya apa?
+apakah ada tugas praktikum?
+Ada tugas praktikum apa saja minggu ini?
+ketentuan tugasnya gimana?
+tugas yang deadline hari ini
+Deadline tugas praktikum
+Ada laprak apa?
+Materi untuk tugas A ada di ppt berapa?
+tugas praktikum
+tugas kapsel apa sih?
+Gamau ada tugas
+cek tugas minggu ini
+Kapan tugas ini terakhir dikumpul?
+Link pengumpulan tugas
+Kapan deadline tugas
+Tugas minggu ini
+minta list tugas analgo saya
+deadline tugas minggu ini?
+Format pengiriman?
+Apa arti tugas?
+Tugasnya apa aja?
+Tadi disuruh apa sih?
+Sudah upload?
+Aku telat kirim tugas, apa boleh lewat email aja ?
+apa saja tugas yg sudah saya upload?
+Tugas praktikum yang ini ada di ppt yang mana ya?
+Apakah ada tugas untuk minggu depan?
+Tugas apa saja yang belum saya selesaikan?
+Tolong tampilkan penjelasan tugas praktikum hari ini?
+anggota kelompok untuk tugas
+deadline Tugas
+yang udah ngumpulin tugas siapa aja?
+Bot, tugas minggu kemaren apa?
+homework
+Link pengiriman tugas
+Apakah ada tugas untuk bulan ini?
+Apakah masih bisa mengirim tugas mata kuliah hari ini?
+Tugas praktikum minggu depan udah aku kumpulin belum?
+minta link tugas praktikum
+Jam berapakah batas pengumpulan tugas
+kang, format tugas X apa? dikirim kemana ya?
+Tugas besar apa aja
+Link ppt apa ya
+Tugas yang udah apa aja? 
+apakah hari xxxx ada tugas praktikum?
+Apakah saya sudah mengirimkan tugas?
+link pengumpulannya apa?
+tugas praktikum x
+Masih boleh ngumpulin tugas ga?
+Ada deadline tugas apa aja?
+Masih boleh upload tugas kalo udah lewat deadline?
+tugas
+eh deskripsi tugas mobkom apa sih?
+Unuploaded
+cek tugas yang belum diupload
+Ada tugas gak?
+Deskripsi tugas hari ini ?
+Web referensi tugas yang berkaitan?
+Tugas praktikum minggu ini
+apakah tugas saya masih ada yang kurang
+tugas yang dilakukan minggu ini?
+Tugas mandiri atau kelompok?
+Kapan ga ada tugas?
+Masih bisa uplod?
+Praktikum tadi ngapain?
+Daftar tugas
+Apa aku punya tugas ?
+apa saja tugas yg belum saya upload?
+Buat minggu ini ada deadline tugas praktikum ga?
+Apakah saya telah mengumpulkan tugas?
+Deadline tugas?
+tolong tampilkan link pengumpulan tugas
+sistematika Tugas
+tugas ini aku udah belum yah?
+Bot, tugas yang ini butuh materi yang mana?
+Apa tugas akhir?
+Tugas
+Link download materi
+Tugas di kumpul kemana?
+Bagaimana format pengumpulan tugas?
+Berapa pengurangan nilai jika telat mengumpulkan tugas ... mata kuliah ... ?
+Ada tugas buat praktikum apa aja? 
+deadline tugas rpl kapan
+satu kelompok satu orang yg ngumpulin? 
+Apakah ada tugas yg belum diselesaikan
+apakah ada tugas praktikum di tanggal 21/12/2008
+Kapan batas akhir pengiriman tugas?
+tugas saya yang belum apa?
+Dl tugas minggu ini
+Kalo tugasnya engga lengkap, boleh kirim ulang ga?
+tugas besok
+rekapan tugas mana aja yang belum
+List tugas minggu ini?
+deadline tugas?
+Apa link pengumpulan tugas / materi
+Apakah terdapat tugas
