@@ -19,7 +19,7 @@ def draw_accuracy():
     plt.plot(model_6_acc)
     plt.ylabel('accuracy')
     plt.xlabel('epoch')
-    plt.legend(['Arch A + CF + TKN', 'Arch A + CF + TKN + SWR', 'Arch A + CF + TKN + SWR + STM', 'Arch B + CF + TKN', 'Arch B + CF + TKN + SWR', 'Arch B + CF + TKN + SWR + STM',], loc='lower right')
+    plt.legend(['Arch A + NR + CF + TKN', 'Arch A + NR + CF + TKN + SWR', 'Arch A + NR + CF + TKN + SWR + STM', 'Arch B + NR + CF + TKN', 'Arch B + NR + CF + TKN + SWR', 'Arch B + NR + CF + TKN + SWR + STM',], loc='lower right')
 
 def draw_precision():
     model_1_precision = np.load('save/model_1_test_precision.npy')
@@ -39,7 +39,7 @@ def draw_precision():
     plt.plot(model_6_precision)
     plt.ylabel('precision')
     plt.xlabel('epoch')
-    plt.legend(['Arch A + CF + TKN', 'Arch A + CF + TKN + SWR', 'Arch A + CF + TKN + SWR + STM', 'Arch B + CF + TKN', 'Arch B + CF + TKN + SWR', 'Arch B + CF + TKN + SWR + STM',], loc='lower right')
+    plt.legend(['Arch A + NR + CF + TKN', 'Arch A + NR + CF + TKN + SWR', 'Arch A + NR + CF + TKN + SWR + STM', 'Arch B + NR + CF + TKN', 'Arch B + NR + CF + TKN + SWR', 'Arch B + NR + CF + TKN + SWR + STM',], loc='lower right')
 
 def draw_recall():
     model_1_recall = np.load('save/model_1_test_recall.npy')
@@ -59,7 +59,7 @@ def draw_recall():
     plt.plot(model_6_recall)
     plt.ylabel('recall')
     plt.xlabel('epoch')
-    plt.legend(['Arch A + CF + TKN', 'Arch A + CF + TKN + SWR', 'Arch A + CF + TKN + SWR + STM', 'Arch B + CF + TKN', 'Arch B + CF + TKN + SWR', 'Arch B + CF + TKN + SWR + STM',], loc='lower right')
+    plt.legend(['Arch A + NR + CF + TKN', 'Arch A + NR + CF + TKN + SWR', 'Arch A + NR + CF + TKN + SWR + STM', 'Arch B + NR + CF + TKN', 'Arch B + NR + CF + TKN + SWR', 'Arch B + NR + CF + TKN + SWR + STM',], loc='lower right')
 
 if __name__ == '__main__':
     draw_accuracy()

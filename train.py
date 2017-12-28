@@ -47,7 +47,7 @@ def train():
     dt.remove_noise()
     dt.fold_case()
     dt.remove_stopword()
-    dt.stem()
+    # dt.stem()
     dt.tokenize()
 
     # initialize corpus
@@ -104,13 +104,13 @@ def train():
         test_recall += fit.history['val_recall']
     
     print(time.time() - t1)
-    model.save('save/model_6.h5')
-    np.save('save/model_6_train_accuracy', train_accuracy)
-    np.save('save/model_6_train_precision', train_precision)
-    np.save('save/model_6_train_recall', train_recall)
-    np.save('save/model_6_test_accuracy', test_accuracy)
-    np.save('save/model_6_test_precision', test_precision)
-    np.save('save/model_6_test_recall', test_recall)
+    model.save('save/model_5.h5')
+    np.save('save/model_5_train_accuracy', train_accuracy)
+    np.save('save/model_5_train_precision', train_precision)
+    np.save('save/model_5_train_recall', train_recall)
+    np.save('save/model_5_test_accuracy', test_accuracy)
+    np.save('save/model_5_test_precision', test_precision)
+    np.save('save/model_5_test_recall', test_recall)
 
 if __name__ == '__main__':
     train()
