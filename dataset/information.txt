@@ -79,7 +79,7 @@ perlihatkan update terbaru praktikum alprog
 Ada info Baru ga buat praktikum ini?
 Bot, saya ingin tahu info terbaru dari praktikum (matakuliah)
 Informasi mengenai tempat praktikum
-Apakah ada pengumumam untuk praktikum minggu ini?
+Apakah ada pengumuman untuk praktikum minggu ini?
 silabus praktikum pemweb
 Bot, materi minggu kemaren apa ya?
 Ada berita pembuatan kelompok?
@@ -109,7 +109,7 @@ Berita
 Adakah info hari ini ?
 perlihatkan materi seputar. praktikum alprog
 Praktikum ini astpraknya siapa ya?
-Apakah ada info terbaru dari praktikum (matakuliah)?
+Apakah ada info terbaru dari praktikum?
 Informasi mengenai jumlah absen
 Apakah tempat praktikum hari ini pindah?
 Jadwal terkini praktikum
@@ -159,7 +159,6 @@ boeh minta modul/materi praktikum HCI semester ini?
 apa saja peraturan praktikum?
 Ada info terbaru mengenai praktikum matakuliah X?
 Cek pengumuman
-Kalo praktikum A, toleransi keterlambatannya berapa menit?
 Jadwal uas uts praktikum kapan
 Kira2 praktikumnya libur ga ya besok? Soalnya hari kejepit liburan
 info

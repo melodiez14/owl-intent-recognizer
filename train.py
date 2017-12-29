@@ -46,8 +46,8 @@ def train():
     dt = Dataset()
     dt.remove_noise()
     dt.fold_case()
-    # dt.remove_stopword()
-    # dt.stem()
+    dt.remove_stopword()
+    dt.stem()
     dt.tokenize()
 
     # initialize corpus
@@ -83,35 +83,43 @@ def train():
     test_accuracy = []
     test_precision = []
     test_recall = []
-    t1 = time.time()
+    t = []
+    i = 1
     kfold = KFold(n_splits=10, shuffle=True, random_state=7)
     for train_index, test_index in kfold.split(x_input, y_input, groups=groups):
-        model = create_network(total_category, total_corpus+1)
+        # splitting training and test set
         x_train = x_input[train_index]
         x_test = x_input[test_index]
         y_train = y_input[train_index]
         y_test = y_input[test_index]
+        # training
+        t1 = time.time()
+        model = create_network(total_category, total_corpus+1)
+        print('Training for fold {0}'.format(i))
         fit = model.fit(x_train, y_train,
                 epochs=NUM_EPOCHS,
-                verbose=1,
+                verbose=0,
                 validation_data=(x_test, y_test),
-                batch_size=10)
-        train_accuracy.append(fit.history['acc'][-1])
-        train_precision.append(fit.history['precision'][-1])
-        train_recall.append(fit.history['recall'][-1])
-        test_accuracy.append(fit.history['val_acc'][-1])
-        test_precision.append(fit.history['val_precision'][-1])
-        test_recall.append(fit.history['val_recall'][-1])
+                batch_size=100)
+        print('Finished at fold {0}'.format(i))
+        t.append(time.time() - t1)
+        # save the metrics
+        train_accuracy.append(fit.history['acc'])
+        train_precision.append(fit.history['precision'])
+        train_recall.append(fit.history['recall'])
+        test_accuracy.append(fit.history['val_acc'])
+        test_precision.append(fit.history['val_precision'])
+        test_recall.append(fit.history['val_recall'])
+        i += 1
 
-    t = time.time() - t1
-    print('Time Elapsed: {}', t)
-    np.save('save/model_1_time', [t])
-    np.save('save/model_1_train_accuracy', train_accuracy)
-    np.save('save/model_1_train_precision', train_precision)
-    np.save('save/model_1_train_recall', train_recall)
-    np.save('save/model_1_test_accuracy', test_accuracy)
-    np.save('save/model_1_test_precision', test_precision)
-    np.save('save/model_1_test_recall', test_recall)
+    print('Time Elapsed: ', t)
+    np.save('save/model_3_time', t)
+    np.save('save/model_3_train_accuracy', train_accuracy)
+    np.save('save/model_3_train_precision', train_precision)
+    np.save('save/model_3_train_recall', train_recall)
+    np.save('save/model_3_test_accuracy', test_accuracy)
+    np.save('save/model_3_test_precision', test_precision)
+    np.save('save/model_3_test_recall', test_recall)
 
 if __name__ == '__main__':
     train()
