@@ -9,8 +9,8 @@ class Dataset:
         'dataset/assignment.txt',
         'dataset/grade.txt',
         'dataset/assistant.txt',
-        'dataset/schedule.txt',
-        'dataset/information.txt'
+        'dataset/schedule.txt'
+        # 'dataset/information.txt'
     ]
    
     def __init__(self):

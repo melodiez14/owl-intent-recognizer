@@ -1,32 +1,24 @@
 informasi hari ini apa ya?
 News pw
-Asprak
 berita terbaru pemrograman web
-Ada materi baru gak?
 Gosip seputar praktikum ?
 Info praktikum
 pengumuman libur praktikum?
 ada informasi apa minggu ini?
-Jadwal kuis nya kapan aja?
-Praktikum semester 7 apa aja?
+ada berita kuis?
 Liat info praktikum sisber
-perlihatkan tugas yg harus dikumpulkan
 Buat praktikum ini ada berita apa aja?
 Apakah minggu depan ada pertemuan praktikum?
 apakah ada informasi libur?
-Tolong tampilkan link ppt praktikum untuk minggu ini?
-Apakah hari ini praktikum ditiadakan?
+Apakah ada pemberitahuan hari ini praktikum ditiadakan?
 minggu ini libur ga?
 Ada berita?
 Info
-Ppt praktikum
-materi praktikum
 Ada info apa aja minggu ini?
 Tunjukkan informasi terbaru seputar praktikum
 Berapa minggu lagi menuju jadwal kuis?
 Ada info Baru gak buat praktikum minggu ini?
 Pengumuman tentang praktikum
-Materi terbaru praktikum apa? 
 Apakah ada berita terbaru tentang praktikum minggu depan?
 Ada kabar mengenai praktikum matakuliah X?
 info terbaru
@@ -43,7 +35,7 @@ UTS kapan?
 Update info
 Info praktikum robotik
 Praktikum ini besok ada pertemuan gak?
-Adakah kabar terbaru dari praktikum (matakuliah)?
+Adakah kabar terbaru dari praktikum?
 Bisakah meminta informasi perihal kontak asprak?
 Apakah minggu ini ada praktikum?
 Berita tentang praktikum
@@ -51,16 +43,11 @@ Bot, kapan libur praktikum?
 Ada berita remedial?
 Info hari ini
 Ada info libur gk?
-Tunjukkan daftar kehadiran saya?
-Berapa minggu lagi menuju jadwal uts?
 Info baru apa aja buat praktikum minggu depan? 
-kelas praktikum so dimana 
 informasi tentang tugas
 disini bisa dapat info apa aja ya?
 Tugas praktikum apa? 
-perlengkapan apa yang harus dibawa pada praktikum hari ini
-info praktikum x
-Kegiatan praktikum hari ini
+info praktikum
 Info terkini
 Praktikum A hari ini materinya tentang apa?
 informasi apa sih ini?
@@ -68,9 +55,7 @@ Gosip pw
 berita
 UTS kapan?
 Ada kabar tentang praktikum untuk hari ini ?
-Web referensi belajar untuk materi minggu ini
 Info
-berita orang2 yang belum mengerjakan tugas ?
 informasi praktikum minggu ini?
 UAS Kapan?
 Praktikum pw ngapain aja?
@@ -80,29 +65,24 @@ Ada info Baru ga buat praktikum ini?
 Bot, saya ingin tahu info terbaru dari praktikum (matakuliah)
 Informasi mengenai tempat praktikum
 Apakah ada pengumuman untuk praktikum minggu ini?
-silabus praktikum pemweb
-Bot, materi minggu kemaren apa ya?
 Ada berita pembuatan kelompok?
 Informasi
 Apakah hari ini ada kelas yang diliburkan?
-Berapa minggu lagi menuju jadwal uas?
 Ada pemberitahuan baru gak?
 informasi remedial
 informasi ujian praktikum semester ini
 Jadwal praktikum ada? Jam berapa? 
-harus bawa apa untuk praktikum
 Apakah praktikum kali ini diliburkan?
 libur ga hari ini?
 berita terbaru banget
 Materi praktikum 
 Cek berita
 boleh ga pake sendal ke praktikum A? Soalnya sepatunya basah keujanan
-Tanggal UAS [Matkul]
+Tanggal UAS
 cek berita hari ini
 UAS kapan?
 Apakah akan ada kuis ?
 Info
-kapan deadline tugas analgo?
 informasi praktikum besok?
 UTS/UAS Project atau tertulis
 Berita
@@ -116,11 +96,9 @@ Jadwal terkini praktikum
 Bot materi minggu depan apa?
 Ada berita projek akhir?
 Info
-List pokok bahasan praktikum [x]
 Berapa pertemuan praktikum yang harus dilaksanakan
 Apakah minggu depan praktikum diliburkan?
 Ada info mendadak gak? 
-kalau mau uts susulan gmn caranya?
 informasi mengenai penilaian
 sudah berapa kali saya tidak mengikuti praktikum?
 informasi rekrutmen asisten praktikum dong
@@ -129,10 +107,9 @@ Ada infomasi apa terkait praktikum matakuliah X?
 ngapain hari ini?
 Kegiatan praktikum minggu
 Lihat pengumuman
-Tanggal UTS [Matkul]
+Tanggal UTS
 jadi infomasi kemarin itu apa?
 cek berita terbaru
-Bisa ikut project yang berkaitan dengan web sama asprak gak?
 Apa agenda praktikum hari ini ?
 Informasi mengenai praktikum minggu ini
 Info
@@ -157,7 +134,7 @@ saya mau izin ga ikut praktikum
 Apakah hr ini terdapat quiz?
 boeh minta modul/materi praktikum HCI semester ini?
 apa saja peraturan praktikum?
-Ada info terbaru mengenai praktikum matakuliah X?
+Ada info terbaru mengenai praktikum matakuliah?
 Cek pengumuman
 Jadwal uas uts praktikum kapan
 Kira2 praktikumnya libur ga ya besok? Soalnya hari kejepit liburan

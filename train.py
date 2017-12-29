@@ -1,6 +1,5 @@
 import time
 import numpy as np
-import matplotlib.pyplot as plt
 from data import Dataset
 from keras.models import Sequential
 from keras.preprocessing import sequence
@@ -10,10 +9,11 @@ from keras.utils import to_categorical
 from keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.model_selection import KFold
 from sklearn.utils import shuffle
+from sklearn.metrics import confusion_matrix
 from metric import precision, recall
 
 SEQUENCE_MAX_LENGTH = 10
-NUM_EPOCHS = 100
+NUM_EPOCHS = 30
 
 def create_network(total_category, input_dim = 1000):
     model = Sequential()
@@ -28,12 +28,12 @@ def create_network(total_category, input_dim = 1000):
                             activation="relu",
                             strides=1))
     model.add(MaxPooling1D())
-    # model.add(Convolution1D(filters=100, # tunning
-    #                         padding="valid",
-    #                         kernel_size=1, # tunning
-    #                         activation="relu",
-    #                         strides=1))
-    # model.add(MaxPooling1D())
+    model.add(Convolution1D(filters=100, # tunning
+                            padding="valid",
+                            kernel_size=1, # tunning
+                            activation="relu",
+                            strides=1))
+    model.add(MaxPooling1D())
     model.add(Dropout(0.8))
     model.add(Flatten())
     model.add(Dense(total_category, activation="softmax"))
@@ -46,8 +46,8 @@ def train():
     dt = Dataset()
     dt.remove_noise()
     dt.fold_case()
-    dt.remove_stopword()
-    dt.stem()
+    # dt.remove_stopword()
+    # dt.stem()
     dt.tokenize()
 
     # initialize corpus
@@ -83,6 +83,7 @@ def train():
     test_accuracy = []
     test_precision = []
     test_recall = []
+    con_matrix = []
     t = []
     i = 1
     kfold = KFold(n_splits=10, shuffle=True, random_state=7)
@@ -111,15 +112,20 @@ def train():
         test_precision.append(fit.history['val_precision'])
         test_recall.append(fit.history['val_recall'])
         i += 1
+        pred = model.predict(x_test)
+        pred_arr = np.argmax(pred, axis=1)
+        act_arr = np.argmax(y_test, axis=1)
+        con_matrix.append(confusion_matrix(act_arr, pred_arr))
 
     print('Time Elapsed: ', t)
-    np.save('save/model_3_time', t)
-    np.save('save/model_3_train_accuracy', train_accuracy)
-    np.save('save/model_3_train_precision', train_precision)
-    np.save('save/model_3_train_recall', train_recall)
-    np.save('save/model_3_test_accuracy', test_accuracy)
-    np.save('save/model_3_test_precision', test_precision)
-    np.save('save/model_3_test_recall', test_recall)
+    np.save('save/woinf_4_time', t)
+    np.save('save/woinf_4_confusion', con_matrix)
+    np.save('save/woinf_4_train_accuracy', train_accuracy)
+    np.save('save/woinf_4_train_precision', train_precision)
+    np.save('save/woinf_4_train_recall', train_recall)
+    np.save('save/woinf_4_test_accuracy', test_accuracy)
+    np.save('save/woinf_4_test_precision', test_precision)
+    np.save('save/woinf_4_test_recall', test_recall)
 
 if __name__ == '__main__':
     train()
