@@ -40,7 +40,7 @@ deadline [nama matkul] tugas ke [nomor urutan tugas]
 Bot, tugas saya ada yg kurang ga?
 Tugas apa belum upload?
 Tugas
-Deadline tugas [n]
+Deadline tugas
 List tugas ?
 Tunjukkan tugas yang belum saya upload?
 Tugas apa saja yg belum saya kumpulkan?
@@ -112,7 +112,6 @@ daftar tugas
 Bagaimana isi tugas yang diminta?
 gengs tugas mobkom apa sih?
 Langsung aja keluarin seluruh tugas sama statusnya
-Materi tugas
 ada tugas apa yang belum?
 Ada tugas baru?
 Deadline memgumpulkan ?
@@ -121,12 +120,11 @@ Tugas prak
 saya kurang di tugas apa saja hari ini
 daftar semua tugas yg belum dikerjakan?
 Dikirim kemana?
-Hah tugas wkekek??
 Di uplodnya dimana?
 Tugas dikumpul kapan?
 Belum upload?
 Tugas praktikum robotik dikumpulin atau dibawa aja hari Rabu ?
-tunjukkan materi untuk tugas yang harus diupload
+tunjukkan tugas yang harus diupload
 Buat praktikum ini ada tugas ga?
 Tugas apa saja yang dikumpulkan minggu ini?
 Bagaimana cara mengerjakan tugas tsb?
@@ -137,7 +135,6 @@ tugas dikumpulin kemana
 Bot, tugas minggu depan apa?
 Tugas apa minggu ini?
 List tugas
-Info kesuksesan pengiriman tugas [n]
 deadline
 Ada asprak yang bisa bantuin tugas hari ini?
 Waktu pengumpulan tugas?
@@ -145,7 +142,6 @@ Kemana harus mengirim tugas mata kuliah ?
 Tugas praktikum minggu ini udah aku kumpulin belum? 
 batas tugas praktikum  kripto jam berapa
 kirim kemana tugasnya? 
-Apa materi yg terdapat pada tugas tsb?
 kang, deadline tugas X tanggal berapa jam berapa ya?
 Tugas minggu depan apa aja
 Tugasnya apa?
@@ -155,7 +151,6 @@ ketentuan tugasnya gimana?
 tugas yang deadline hari ini
 Deadline tugas praktikum
 Ada laprak apa?
-Materi untuk tugas A ada di ppt berapa?
 tugas praktikum
 tugas kapsel apa sih?
 Gamau ada tugas
@@ -167,9 +162,7 @@ Tugas minggu ini
 minta list tugas analgo saya
 deadline tugas minggu ini?
 Format pengiriman?
-Apa arti tugas?
 Tugasnya apa aja?
-Tadi disuruh apa sih?
 Sudah upload?
 Aku telat kirim tugas, apa boleh lewat email aja ?
 apa saja tugas yg sudah saya upload?
@@ -222,13 +215,10 @@ Deadline tugas?
 tolong tampilkan link pengumpulan tugas
 sistematika Tugas
 tugas ini aku udah belum yah?
-Bot, tugas yang ini butuh materi yang mana?
 Apa tugas akhir?
 Tugas
-Link download materi
 Tugas di kumpul kemana?
 Bagaimana format pengumpulan tugas?
-Berapa pengurangan nilai jika telat mengumpulkan tugas ... mata kuliah ... ?
 Ada tugas buat praktikum apa aja? 
 deadline tugas rpl kapan
 satu kelompok satu orang yg ngumpulin? 
@@ -242,5 +232,8 @@ tugas besok
 rekapan tugas mana aja yang belum
 List tugas minggu ini?
 deadline tugas?
-Apa link pengumpulan tugas / materi
+Apa link pengumpulan tugas
 Apakah terdapat tugas
+apakah kantong tugas hci sudah ada?
+Tugas praktikum apa?
+informasi tentang tugas

@@ -44,9 +44,7 @@ Ada berita remedial?
 Info hari ini
 Ada info libur gk?
 Info baru apa aja buat praktikum minggu depan? 
-informasi tentang tugas
 disini bisa dapat info apa aja ya?
-Tugas praktikum apa? 
 info praktikum
 Info terkini
 Praktikum A hari ini materinya tentang apa?
@@ -113,7 +111,6 @@ cek berita terbaru
 Apa agenda praktikum hari ini ?
 Informasi mengenai praktikum minggu ini
 Info
-apakah kantong tugas hci sudah ada?
 informasi yang terlewatkan minggu lalu?
 Perubahan
 Info seluruh praktikum minggu depan

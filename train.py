@@ -28,11 +28,11 @@ def create_network(total_category, input_dim = 1000):
                             activation="relu",
                             strides=1))
     model.add(MaxPooling1D())
-    model.add(Convolution1D(filters=100, # tunning
-                            padding="valid",
-                            kernel_size=1, # tunning
-                            activation="relu",
-                            strides=1))
+    # model.add(Convolution1D(filters=100, # tunning
+    #                         padding="valid",
+    #                         kernel_size=1, # tunning
+    #                         activation="relu",
+    #                         strides=1))
     model.add(MaxPooling1D())
     model.add(Dropout(0.8))
     model.add(Flatten())
@@ -99,7 +99,7 @@ def train():
         print('Training for fold {0}'.format(i))
         fit = model.fit(x_train, y_train,
                 epochs=NUM_EPOCHS,
-                verbose=0,
+                verbose=2,
                 validation_data=(x_test, y_test),
                 batch_size=100)
         print('Finished at fold {0}'.format(i))
@@ -118,14 +118,14 @@ def train():
         con_matrix.append(confusion_matrix(act_arr, pred_arr))
 
     print('Time Elapsed: ', t)
-    np.save('save/woinf_4_time', t)
-    np.save('save/woinf_4_confusion', con_matrix)
-    np.save('save/woinf_4_train_accuracy', train_accuracy)
-    np.save('save/woinf_4_train_precision', train_precision)
-    np.save('save/woinf_4_train_recall', train_recall)
-    np.save('save/woinf_4_test_accuracy', test_accuracy)
-    np.save('save/woinf_4_test_precision', test_precision)
-    np.save('save/woinf_4_test_recall', test_recall)
+    np.save('save/woinf_7_time', t)
+    np.save('save/woinf_7_confusion', con_matrix)
+    np.save('save/woinf_7_train_accuracy', train_accuracy)
+    np.save('save/woinf_7_train_precision', train_precision)
+    np.save('save/woinf_7_train_recall', train_recall)
+    np.save('save/woinf_7_test_accuracy', test_accuracy)
+    np.save('save/woinf_7_test_precision', test_precision)
+    np.save('save/woinf_7_test_recall', test_recall)
 
 if __name__ == '__main__':
     train()

@@ -20,7 +20,7 @@ def draw_accuracy():
     plt.ylabel('accuracy')
     plt.xlabel('epoch')
     plt.legend(['Arch A + NR + CF + TKN', 'Arch A + NR + CF + TKN + SWR', 'Arch A + NR + CF + TKN + SWR + STM', 'Arch B + NR + CF + TKN', 'Arch B + NR + CF + TKN + SWR', 'Arch B + NR + CF + TKN + SWR + STM',], loc='lower right')
-
+    np.int16
 def draw_precision():
     model_1_precision = np.mean(np.load('save/woinf_1_test_precision.npy'), axis=0)
     model_2_precision = np.mean(np.load('save/woinf_2_test_precision.npy'), axis=0)

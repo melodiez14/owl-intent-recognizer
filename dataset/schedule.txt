@@ -20,7 +20,7 @@ Mulainya jam berapa?
 Ruangan pratikum A dimana?
 tolong perlihatkan jadwal praktikum saya hari ini?
 jadwal saya apa ya?
-jadawal kemarin apa sih?
+jadawl kemarin apa sih?
 jadwal ku kapan?
 minggu lalu ada jadwal?
 Jadwal hari ini
@@ -41,7 +41,6 @@ Hari ini ada praktikum apa?
 Hari ini praktikum apa?
 Apa praktikum hari ini?
 Jadwal praktikum hari ini ?
-Apakah hari ini praktikum libur ?
 Lokasi praktikum ?
 Praktikum mulai jam berapa
 Kenapa jadwal praktikum ditunda
@@ -61,15 +60,10 @@ jadwal bulan ini?
 jadwal terupdate?
 hari ini ada praktikum?
 Pratikum masuk seperti biasa?
-Bisa pindah jadwal?
-Boleh telat sedikit?
-Boleh Izin?
-Libur ga?
 Ada praktikum apa hari ini?
 Siapa aslab hari ini?
 Sampai kapan praktikum berakhir?
 Apakah ada tugas praktikum?
-Apakah libur?
 Udah mulai belum?
 Masuk jam berapa?
 Masih boleh absen?
@@ -90,7 +84,6 @@ Hari ini ada praktikum apa aja ?
 Liat jadwal praktikum hari ini dong
 Apa saya ada praktikum hari ini ?
 Bagaimana jadwal praktikum saya?
-Apa materi praktikum hari ini?
 Bagaimana jadwal kuis praktikum?
 Kapan uas praktikum?
 Jadwal praktikum buat minggu ini ada apa aja?
@@ -112,20 +105,17 @@ Jam berapa praktikum angkatan 2016 hari ini dimulai?
 Tolong tampilkan jadwal praktikum pada hari Rabu?
 Tolong perlihatkan jadwal praktikum minggu ini?
 Tolong tampilkan jadwal praktikum semua angkatan?
-Apa materi praktikum hari ini?
 Apa jadwal praktikum hari ini?
 Dimana ruang praktikum hari ini?
 Jadwal hari ini?
 Ada praktikum hari ini?
 Jam berapa praktikum hari ini
-Materi Praktikum Hari ini?
 praktikum hari ini?
 jadwal minggu ini apa aja?
 praktikum minggu ini ada kelas ga?
 praktikum dimana ya?
 Jadwal
 Bot, jadwal praktikum minggu ini apa aja ya?
-Bot, apakah minggu ini libur?
 Bot, jadwal uts dan uas apa?
 Bot, apakah ada penggantian jadwal minggu ini?
 Bot, jadwal full dari awal sampe uas tanggal brp aja?
@@ -148,7 +138,6 @@ praktikum hari ini jam berapa?
 Jadwal praktikum saya hari ini dan tempat
 Dimanakah ruangan praktikum saya?
 Siapakah asprak yang akan mengajar hari ini?
-Apakah jadwal hari ini diliburkan?
 Jam berapa praktikum hari ini dimulai
 Jadwal praktikum hari ini?
 Jadwal praktikum minggu ini?
@@ -167,7 +156,6 @@ jadwal praktikum hari ini apa aja ya
 jam praktikum
 siapa asisten praktikumnya?
 dimana praktikumnya?
-apa materi praktikum minggu ini (pokok materi)
 Apakah terdapat kelas praktikum untuk minggu ini?
 Kelas saya pada ruang apa?
 boleh lihat jadwal praktikum lengkap ga kang?
@@ -179,10 +167,8 @@ Apakah hari ini ada pertemuan
 Pertemuan hari ini bahas apa
 Praktikum di lab mana
 Kelas praktikum hari ini ham berapa? 
-Kelas praktikum hari ini materinya apa? 
-Hari ini ada kelas praktikum ga? Hehe
+Hari ini ada kelas praktikum ga?
 Praktikumnya di lab mana?
-Materi praktikum minggu lalu ada?
 Praktikum apa saja hari ini?
 Praktikum hari ini untuk angkatan [isiAngkatan]
 Praktikum untuk hari xxx
@@ -192,11 +178,8 @@ Apa jadwal praktikum saya selama seminggu ini?
 Ada praktikum apa hari ini?
 Apakah saya ada jadwal praktikum?
 Hari apa saja saya ada praktikum?
-Apakah praktikum hari ini diliburkan?
 Jam berapa praktikum matakuliah X?
-tugas praktikum saya apa aja?
 kapan quiz, deadline tugas, UTS, UAS?
-praktikum hari ini libur ga?
 masuk jam berapa?
 tempatnya dimana?
 jadwalku
@@ -213,7 +196,6 @@ Ada praktikum apa aja?
 Hari ini praktikum apa?
 Adakah perubahan jadwal praktikum pada hari ini?
 Ruangan praktikum A dimana ya?
-Minggu ini ada praktikum yang libur ga?
 Jadwal hari ini
 Jadwal
 praktikum besok
@@ -221,3 +203,4 @@ jadwal praktikum
 Pada hari apa praktikum tertentu?
 Dimana tempat praktikum tertentu dilaksanakan?
 Kapan praktikum tertentu dilaksanakan?
+Ada jadwal hari ini?
