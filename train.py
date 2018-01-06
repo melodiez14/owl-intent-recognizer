@@ -24,20 +24,23 @@ def create_network(total_category, input_dim = 1000):
     model.add(Dropout(0.2))
     model.add(Convolution1D(filters=100, # tunning
                             padding="valid",
-                            kernel_size=2, # tunning
+                            kernel_size=3, # tunning
                             activation="relu",
                             strides=1))
     model.add(MaxPooling1D())
-    # model.add(Convolution1D(filters=100, # tunning
-    #                         padding="valid",
-    #                         kernel_size=1, # tunning
-    #                         activation="relu",
-    #                         strides=1))
+    model.add(Convolution1D(filters=100, # tunning
+                            padding="valid",
+                            kernel_size=1, # tunning
+                            activation="relu",
+                            strides=1))
     model.add(MaxPooling1D())
     model.add(Dropout(0.8))
     model.add(Flatten())
     model.add(Dense(total_category, activation="softmax"))
-    model.compile(loss="categorical_crossentropy", optimizer="adam", metrics=['accuracy', precision, recall])
+    model.compile(
+        loss="categorical_crossentropy",
+        optimizer="adam",
+        metrics=['accuracy', precision, recall])
     return model
 
 def train():
@@ -46,8 +49,8 @@ def train():
     dt = Dataset()
     dt.remove_noise()
     dt.fold_case()
-    # dt.remove_stopword()
-    # dt.stem()
+    dt.remove_stopword()
+    dt.stem()
     dt.tokenize()
 
     # initialize corpus
@@ -118,14 +121,14 @@ def train():
         con_matrix.append(confusion_matrix(act_arr, pred_arr))
 
     print('Time Elapsed: ', t)
-    np.save('save/woinf_7_time', t)
-    np.save('save/woinf_7_confusion', con_matrix)
-    np.save('save/woinf_7_train_accuracy', train_accuracy)
-    np.save('save/woinf_7_train_precision', train_precision)
-    np.save('save/woinf_7_train_recall', train_recall)
-    np.save('save/woinf_7_test_accuracy', test_accuracy)
-    np.save('save/woinf_7_test_precision', test_precision)
-    np.save('save/woinf_7_test_recall', test_recall)
+    np.save('save/winf_6_time', t)
+    np.save('save/winf_6_confusion', con_matrix)
+    np.save('save/winf_6_train_accuracy', train_accuracy)
+    np.save('save/winf_6_train_precision', train_precision)
+    np.save('save/winf_6_train_recall', train_recall)
+    np.save('save/winf_6_test_accuracy', test_accuracy)
+    np.save('save/winf_6_test_precision', test_precision)
+    np.save('save/winf_6_test_recall', test_recall)
 
 if __name__ == '__main__':
     train()
