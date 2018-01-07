@@ -1,12 +1,11 @@
 import time
 import numpy as np
-from data import Dataset
+from util import Dataset
 from keras.models import Sequential
 from keras.preprocessing import sequence
 from keras.preprocessing.text import Tokenizer
 from keras.layers import Dense, Dropout, Flatten, MaxPooling1D, Convolution1D, Embedding
 from keras.utils import to_categorical
-from keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.model_selection import KFold
 from sklearn.utils import shuffle
 from sklearn.metrics import confusion_matrix

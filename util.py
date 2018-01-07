@@ -38,13 +38,13 @@ class Preprocessing:
 class Dataset:
     '''Used for load and preprocess dataset'''
 
-    QUESTION_DATASET_PATH = [
-        'dataset/assignment.txt',
-        'dataset/grade.txt',
-        'dataset/assistant.txt',
-        'dataset/schedule.txt',
-        'dataset/information.txt'
-    ]
+    QUESTION_DATASET_PATH = {
+        'assignment': 'dataset/assignment.txt',
+        'grade': 'dataset/grade.txt',
+        'assistant': 'dataset/assistant.txt',
+        'schedule': 'dataset/schedule.txt',
+        'information': 'dataset/information.txt'
+    }
 
     def __init__(self):
         self.__texts__ = self.__init_text__()
@@ -54,7 +54,7 @@ class Dataset:
     def __init_text__(self):
         import os
         plain = []
-        for path in self.QUESTION_DATASET_PATH:
+        for _, path in self.QUESTION_DATASET_PATH.items():
             if not os.path.isfile(path):
                 print('load corpus failed')
                 print('%s is not exist' % path)
@@ -117,3 +117,7 @@ class Dataset:
     def get_category_length(self):
         '''Return total intent'''
         return self.__category_length__
+
+    def get_intent(self):
+        '''Return an intent'''
+        return [x for x in self.QUESTION_DATASET_PATH]
