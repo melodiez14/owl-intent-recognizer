@@ -17,13 +17,23 @@ class Model1:
     '''
 
     @staticmethod
+    def get_meta():
+        '''Return name of this model'''
+        return 'one'
+
+    @staticmethod
+    def get_description():
+        '''Description for visualizer legend'''
+        return 'Arch A + NR + CF + TKN'
+
+    @staticmethod
     def get_dataset():
         '''Used for load the dataset and preprocess it'''
-        dt = Dataset()
-        dt.remove_noise()
-        dt.fold_case()
-        dt.tokenize()
-        return dt
+        data = Dataset()
+        data.remove_noise()
+        data.fold_case()
+        data.tokenize()
+        return data
 
     @staticmethod
     def preprocess(text):
@@ -65,20 +75,31 @@ class Model2:
     '''
 
     @staticmethod
+    def get_meta():
+        '''Return name of this model'''
+        return 'two'
+
+    @staticmethod
+    def get_description():
+        '''Description for visualizer legend'''
+        return 'Arch A + NR + CF + SWR + TKN'
+
+    @staticmethod
     def get_dataset():
         '''Used for load the dataset and preprocess it'''
-        dt = Dataset()
-        dt.remove_noise()
-        dt.fold_case()
-        dt.tokenize()
-        dt.remove_stopword()
-        return dt
+        data = Dataset()
+        data.remove_noise()
+        data.fold_case()
+        data.remove_stopword()
+        data.tokenize()
+        return data
 
     @staticmethod
     def preprocess(text):
         '''Used for preprocess the text in production environment'''
         text = Preprocessing.remove_noise(text)
         text = Preprocessing.fold_case(text)
+        text = Preprocessing.remove_stopword(text)
         text = Preprocessing.tokenize(text)
         return text
 
@@ -114,21 +135,33 @@ class Model3:
     '''
 
     @staticmethod
+    def get_meta():
+        '''Return name of this model'''
+        return 'three'
+
+    @staticmethod
+    def get_description():
+        '''Description for visualizer legend'''
+        return 'Arch A + NR + CF + SWR + STM + TKN'
+
+    @staticmethod
     def get_dataset():
         '''Used for load the dataset and preprocess it'''
-        dt = Dataset()
-        dt.remove_noise()
-        dt.fold_case()
-        dt.tokenize()
-        dt.remove_stopword()
-        dt.stem()
-        return dt
+        data = Dataset()
+        data.remove_noise()
+        data.fold_case()
+        data.remove_stopword()
+        data.stem()
+        data.tokenize()
+        return data
 
     @staticmethod
     def preprocess(text):
         '''Used for preprocess the text in production environment'''
         text = Preprocessing.remove_noise(text)
         text = Preprocessing.fold_case(text)
+        text = Preprocessing.remove_stopword(text)
+        text = Preprocessing.stem(text)
         text = Preprocessing.tokenize(text)
         return text
 
@@ -164,13 +197,23 @@ class Model4:
     '''
 
     @staticmethod
+    def get_meta():
+        '''Return name of this model'''
+        return 'four'
+
+    @staticmethod
+    def get_description():
+        '''Description for visualizer legend'''
+        return 'Arch B + NR + CF + TKN'
+
+    @staticmethod
     def get_dataset():
         '''Used for load the dataset and preprocess it'''
-        dt = Dataset()
-        dt.remove_noise()
-        dt.fold_case()
-        dt.tokenize()
-        return dt
+        data = Dataset()
+        data.remove_noise()
+        data.fold_case()
+        data.tokenize()
+        return data
 
     @staticmethod
     def preprocess(text):
@@ -218,20 +261,31 @@ class Model5:
     '''
 
     @staticmethod
+    def get_meta():
+        '''Return name of this model'''
+        return 'five'
+
+    @staticmethod
+    def get_description():
+        '''Description for visualizer legend'''
+        return 'Arch B + NR + CF + SWR + TKN'
+
+    @staticmethod
     def get_dataset():
         '''Used for load the dataset and preprocess it'''
-        dt = Dataset()
-        dt.remove_noise()
-        dt.fold_case()
-        dt.tokenize()
-        dt.remove_stopword()
-        return dt
+        data = Dataset()
+        data.remove_noise()
+        data.fold_case()
+        data.remove_stopword()
+        data.tokenize()
+        return data
 
     @staticmethod
     def preprocess(text):
         '''Used for preprocess the text in production environment'''
         text = Preprocessing.remove_noise(text)
         text = Preprocessing.fold_case(text)
+        text = Preprocessing.stem(text)
         text = Preprocessing.tokenize(text)
         return text
 
@@ -273,21 +327,33 @@ class Model6:
     '''
 
     @staticmethod
+    def get_meta():
+        '''Return name of this model'''
+        return 'six'
+
+    @staticmethod
+    def get_description():
+        '''Description for visualizer legend'''
+        return 'Arch B + NR + CF + SWR + STM + TKN'
+
+    @staticmethod
     def get_dataset():
         '''Used for load the dataset and preprocess it'''
-        dt = Dataset()
-        dt.remove_noise()
-        dt.fold_case()
-        dt.tokenize()
-        dt.remove_stopword()
-        dt.stem()
-        return dt
+        data = Dataset()
+        data.remove_noise()
+        data.fold_case()
+        data.remove_stopword()
+        data.stem()
+        data.tokenize()
+        return data
 
     @staticmethod
     def preprocess(text):
         '''Used for preprocess the text in production environment'''
         text = Preprocessing.remove_noise(text)
         text = Preprocessing.fold_case(text)
+        text = Preprocessing.remove_stopword(text)
+        text = Preprocessing.stem(text)
         text = Preprocessing.tokenize(text)
         return text
 

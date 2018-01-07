@@ -10,6 +10,7 @@ Usage:
     python app.py [arguments]
 The commands are:
     evaluate
+    visualize
     train
     run
     version
@@ -26,6 +27,11 @@ def evaluate():
     from model import Model1, Model2, Model3, Model4, Model5, Model6
     evaluator = Evaluator(Model1, Model2, Model3, Model4, Model5, Model6)
     evaluator.evaluate()
+
+def visualize():
+    '''Evaluate all of built CNN model and visualize the accuracy, precision, and recall'''
+    from evaluate import Evaluator
+    Evaluator.visualize()
 
 def train_print():
     '''Print the helper of training subprogram'''
@@ -71,6 +77,7 @@ if __name__ == '__main__':
         exit()
     INTENT = {
         'evaluate': evaluate,
+        'visualize': visualize,
         'train': train,
         'run': run,
         'version': version,

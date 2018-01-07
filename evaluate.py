@@ -10,10 +10,10 @@ from sklearn.utils import shuffle
 SEQUENCE_MAX_LENGTH = 10
 NUM_EPOCHS = 30
 EVAL_DIR = 'evaluation'
+EVAL_META = 'meta.json'
 MODEL_DIR = 'model'
-MODEL_FILENAME = 'trainned.h5'
-MODEL_DICTIONARY_X = 'dictionary.json'
-MODEL_DICTIONARY_Y = 'intent.json'
+MODEL_FILENAME = 'trained.h5'
+MODEL_META = 'meta.json'
 
 
 class Evaluator:
@@ -29,6 +29,7 @@ class Evaluator:
         if not os.path.exists(EVAL_DIR):
             os.makedirs(EVAL_DIR)
 
+        meta = {'accuracy': [], 'precision': [], 'recall': []}
         for model in self.__models__:
             data = model.get_dataset()
 
@@ -77,6 +78,27 @@ class Evaluator:
                 test_precision.append(fit.history['val_precision'])
                 test_recall.append(fit.history['val_recall'])
 
+            # save metadata
+            meta['accuracy'] += [{
+                'name': model.get_meta(),
+                'loc': '{0}/{1}_test_accuracy'.format(EVAL_DIR, model.__name__),
+                'legend': model.get_description()
+            }]
+            meta['precision'] += [{
+                'name': model.get_meta(),
+                'loc': '{0}/{1}_test_precision'.format(EVAL_DIR, model.__name__),
+                'legend': model.get_description()
+            }]
+            meta['recall'] += [{
+                'name': model.get_meta(),
+                'loc': '{0}/{1}_test_recall'.format(EVAL_DIR, model.__name__),
+                'legend': model.get_description()
+            }]
+            import json
+            with open(os.path.join(EVAL_DIR, EVAL_META), 'w') as meta_file:
+                json.dump(meta, meta_file)
+            
+            # save evaluation result
             np.save(
                 '{0}/{1}_test_accuracy'.format(EVAL_DIR, model.__name__), test_accuracy)
             np.save('{0}/{1}_test_precision'.format(EVAL_DIR, model.__name__),
@@ -84,6 +106,22 @@ class Evaluator:
             np.save('{0}/{1}_test_recall'.format(EVAL_DIR,
                                                  model.__name__), test_recall)
 
+    @staticmethod
+    def visualize():
+        '''visualize the evaluation model'''
+        import json
+        import matplotlib.pyplot as plt
+        with open(os.path.join(EVAL_DIR, EVAL_META), 'r') as meta_file:
+            meta = json.load(meta_file)
+            for key, model in meta.items():
+                plt.figure(key)
+                plt.title(key)
+                for value in model:
+                    plt.plot(np.mean(np.load('{}.npy'.format(value['loc'])), axis=0))
+                plt.ylabel(key)
+                plt.xlabel('epoch')
+                plt.legend([x['legend'] for x in model], loc='lower right')
+        plt.show()
 
 class Trainner:
     '''This class used for evaluate all models specified'''
@@ -131,25 +169,47 @@ class Trainner:
                     verbose=1,
                     batch_size=2)
 
-        # save the dictionary
+        # save the metadata
         import json
-        dictionary = tokenizer.word_index
-        with open(os.path.join(MODEL_DIR, MODEL_DICTIONARY_X), 'w') as dictionary_file:
-            json.dump(dictionary, dictionary_file)
-        
-        dictionary = data.get_intent()
-        with open(os.path.join(MODEL_DIR, MODEL_DICTIONARY_Y), 'w') as dictionary_file:
-            json.dump(dictionary, dictionary_file)
+        meta = {
+            'model': self.__model__.get_meta(),
+            'dictionary': tokenizer.word_index,
+            'intent': data.get_intent()
+        }
+        with open(os.path.join(MODEL_DIR, MODEL_META), 'w') as meta_file:
+            json.dump(meta, meta_file)
 
         # save the model
         network.save('{0}/{1}'.format(MODEL_DIR, MODEL_FILENAME))
-        print('''Model Successfully trainned. Now you can run the server''')
+        print('''Model Successfully trained. Now you can run the server''')
 
 
 class Webserver:
     '''Webserver used for running the intent recognition service'''
 
     def __init__(self):
+        # load meta
+        path = os.path.join(MODEL_DIR, MODEL_META)
+        if not os.path.exists(path):
+            print(
+                'Please run "python app.py train [modelnumber]" before use run application')
+
+        import json
+        from model import Model1, Model2, Model3, Model4, Model5, Model6
+        with open(os.path.join(MODEL_DIR, MODEL_META), 'r') as meta_file:
+            meta = json.load(meta_file)
+            model = {
+                Model1.get_meta(): Model1,
+                Model2.get_meta(): Model2,
+                Model3.get_meta(): Model3,
+                Model4.get_meta(): Model4,
+                Model5.get_meta(): Model5,
+                Model6.get_meta(): Model6
+            }.get(meta['model'], self.__model_invalid__)
+            self.__model_meta__ = model
+            self.__dictionary__ = meta['dictionary']
+            self.__intent__ = meta['intent']
+
         # load model
         path = os.path.join(MODEL_DIR, MODEL_FILENAME)
         if not os.path.exists(path):
@@ -161,30 +221,15 @@ class Webserver:
         self.__model__ = load_model(
             path, {'precision': precision, 'recall': recall})
 
-        # load dictionary
-        path = os.path.join(MODEL_DIR, MODEL_DICTIONARY_X)
-        if not os.path.exists(path):
-            print(
-                'Please run "python app.py train [modelnumber]" before use run application')
-
-        import json
-        with open(os.path.join(MODEL_DIR, MODEL_DICTIONARY_X), 'r') as dictionary_file:
-            self.__dictionary__ = json.load(dictionary_file)
-
-        path = os.path.join(MODEL_DIR, MODEL_DICTIONARY_Y)
-        if not os.path.exists(path):
-            print(
-                'Please run "python app.py train [modelnumber]" before use run application')
-
-        with open(os.path.join(MODEL_DIR, MODEL_DICTIONARY_Y), 'r') as dictionary_file:
-            self.__intent__ = json.load(dictionary_file)
-
+    @staticmethod
+    def __model_invalid__():
+        print('Invalid meta. Please retrain the model...')
+        exit()
 
     def run(self):
         '''This function used for running the web server and predicting the result'''
 
         import json
-        from util import Preprocessing
         from flask import Flask, request
 
         app = Flask(__name__)
@@ -193,9 +238,7 @@ class Webserver:
         def predict():
             '''route for predict the intent'''
             text = request.form['text']
-            text = Preprocessing.remove_noise(text)
-            text = Preprocessing.fold_case(text)
-            text = Preprocessing.tokenize(text)
+            text = self.__model_meta__.preprocess(text)
             # convert input to an index of dictionary
             x_input = []
             for word in text:
@@ -205,7 +248,7 @@ class Webserver:
             # pad sequence
             x_input = sequence.pad_sequences(
                 [x_input], maxlen=SEQUENCE_MAX_LENGTH, padding="post", truncating="post")
-            
+ 
             prediction = self.__model__.predict(x_input)
             result = np.argmax(prediction, axis=1)
             response = json.dumps({
@@ -213,5 +256,5 @@ class Webserver:
                 'confident': np.float64(prediction[0][result[0]])
             })
             return response
-        
+
         app.run()

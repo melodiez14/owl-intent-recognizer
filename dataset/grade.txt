@@ -203,7 +203,7 @@ Praktikum yang ini dinilainya sama siapa?
 Tolong perlihatkan nilai akhir (matakuliah) saya?
 apakah bisa perbaikan nilai?
 Berapa kkm nilai dari tiap tugas praktikum?
-Nilai Seluruh tugas Kriptigrafi
+Nilai Seluruh tugas Kriptografi
 Bot, nilai tugas saya termasuk tinggi ga dikelas?
 Berapa nilai UAS minimum untuk mencapai A?
 Result
