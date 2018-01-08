@@ -237,7 +237,7 @@ class Webserver:
         '''This function used for running the web server and predicting the result'''
 
         import json
-        from flask import Flask, request
+        from flask import Flask, request, make_response
 
         app = Flask(__name__)
 
@@ -258,10 +258,11 @@ class Webserver:
 
             prediction = self.__model__.predict(x_input)
             result = np.argmax(prediction, axis=1)
-            response = json.dumps({
+            response = make_response(json.dumps({
                 'intent': self.__intent__[result[0]],
                 'confident': np.float(prediction[0][result[0]])
-            })
+            }))
+            response.headers['Content-Type'] = 'application/json'
             return response
 
-        app.run(host='0.0.0.0', port='80')
+        app.run(host='0.0.0.0', port=80)
