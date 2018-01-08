@@ -97,7 +97,7 @@ class Evaluator:
             import json
             with open(os.path.join(EVAL_DIR, EVAL_META), 'w') as meta_file:
                 json.dump(meta, meta_file)
-            
+
             # save evaluation result
             np.save(
                 '{0}/{1}_test_accuracy'.format(EVAL_DIR, model.__name__), test_accuracy)
@@ -122,11 +122,13 @@ class Evaluator:
                 plt.figure(key)
                 plt.title(key)
                 for value in model:
-                    plt.plot(np.mean(np.load('{}.npy'.format(value['loc'])), axis=0))
+                    plt.plot(
+                        np.mean(np.load('{}.npy'.format(value['loc'])), axis=0))
                 plt.ylabel(key)
                 plt.xlabel('epoch')
                 plt.legend([x['legend'] for x in model], loc='lower right')
         plt.show()
+
 
 class Trainner:
     '''This class used for evaluate all models specified'''
@@ -253,12 +255,12 @@ class Webserver:
             # pad sequence
             x_input = sequence.pad_sequences(
                 [x_input], maxlen=SEQUENCE_MAX_LENGTH, padding="post", truncating="post")
- 
+
             prediction = self.__model__.predict(x_input)
             result = np.argmax(prediction, axis=1)
             response = json.dumps({
                 'intent': self.__intent__[result[0]],
-                'confident': np.float64(prediction[0][result[0]])
+                'confident': np.float(prediction[0][result[0]])
             })
             return response
 
