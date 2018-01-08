@@ -111,6 +111,11 @@ class Evaluator:
         '''visualize the evaluation model'''
         import json
         import matplotlib.pyplot as plt
+
+        if not os.path.exists(os.path.join(EVAL_DIR, EVAL_META)):
+            print('''Please run "python app.py evaluate" before visualize the result''')
+            exit()
+
         with open(os.path.join(EVAL_DIR, EVAL_META), 'r') as meta_file:
             meta = json.load(meta_file)
             for key, model in meta.items():
